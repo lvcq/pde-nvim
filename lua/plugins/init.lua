@@ -10,5 +10,9 @@ end
 return require('packer').startup(function(use)
 	-- Packer itself
 	use 'wbthomason/packer.nvim'
-
+	-- color theme
+	use 'cocopon/iceberg.vim'
+  use {'neoclide/coc.nvim', branch='release'}
 end)
+
+
