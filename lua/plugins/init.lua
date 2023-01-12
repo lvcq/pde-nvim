@@ -13,6 +13,13 @@ return require('packer').startup(function(use)
 	-- color theme
 	use 'cocopon/iceberg.vim'
   use {'neoclide/coc.nvim', branch='release'}
+  use {
+    'nvim-tree/nvim-tree.lua',
+    require={
+      'nvim-tree/nvim-web-devicons', -- optional, for file icons
+    },
+    tag = 'nightly' --optional, updated every week.
+  }
 end)
 
 
